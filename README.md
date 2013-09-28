@@ -91,7 +91,7 @@ use Eexit\Twig\ContextParser\ContextParser;
 $loader = new \Twig_Loader_String();
 $twig = new \Twig_Environment($loader);
 
-$template = $twig->parse($twig->tokenize("{% set foo = "bar" %}{% set baz = "yux" %}"));
+$template = $twig->parse($twig->tokenize('{% set foo = "bar" %}{% set baz = "yux" %}'));
 
 $context = new ContextParser($twig);
 
