@@ -1,0 +1,20 @@
+{
+    "name": "eexit/twig-context-parser",
+    "description": "Get a Twig template context variables pragmatically.",
+    "keywords": ["twig", "context", "parser", "variable", "template"],
+    "homepage": "http://www.eexit.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name" : "Joris Berthelot",
+            "email": "admin@eexit.net"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.3",
+        "twig/twig" : ">=1.8,<2.0-dev"
+    },
+    "autoload": {
+        "psr-0": { "Eexit": "src/" }
+    }
+}
